@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	html
+		head
+			meta(name="viewport" content="width=device-width")
+			link(rel='stylesheet', href='/stylesheets/mystyle.css')
+			h1="Welcome to Pretzel"
+		body
+			h2.center= "Party Playlist"
+			p.center Lil Wayne - Amili
+			p.center Grateful - Good Mornin' Little School Girl
+			p.center Wings - Band on the Run
+			p.center Wiz Khalifa - Paperbond
+
+		div
+			input(type="button" value="Add song to playlist")
+
+		script
+			$('div').click(function() { $('input[type="file"]').click(); });
+
