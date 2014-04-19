@@ -8,3 +8,40 @@ html {
 	width:70%;
 	background-color:#b0e0e6;
 }
+
+.inputWrapper 
+{
+    overflow: hidden;
+    height: 51px;
+    width: 51px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    background-image: url(/images/playlist.png);
+    background-size: 51px 51px;
+    background-color: #b0e0e6;
+}
+
+.fileInput 
+{
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    font-size:50;
+}
+
+.send
+{
+    cursor: pointer;
+    position: absolute;
+    top: 265px;
+    right: 562px;
+    height: 51px;
+    width: 51px;
+    background-image: url(/images/upload.png);
+    background-size: 51px 51px;
+    background-color: #b0e0e6;
+}
