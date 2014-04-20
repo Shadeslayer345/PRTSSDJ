@@ -5,6 +5,8 @@ block content
 		head
 			meta(name="viewport" content="width=device-width")
 			link(rel='stylesheet', href='/stylesheets/mystyle.css')
+			script()
+			script()
 			h1="Welcome to Pretzel"
 		body
 			h2.center= "Party Playlist"
@@ -13,9 +15,7 @@ block content
 			p.center Wings - Band on the Run
 			p.center Wiz Khalifa - Paperbond
 
-		div
-			input(type="button" value="Add song to playlist")
+		div.inputWrapper
+			input.fileInput(type="file" name="Userfile")
 
-		script
-			$('div').click(function() { $('input[type="file"]').click(); });
-
+		div.send

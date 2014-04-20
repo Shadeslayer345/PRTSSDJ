@@ -12,7 +12,6 @@ var omx = require('omxcontrol');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-
 var app = express();
 
 //Environment Setup
